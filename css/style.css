@@ -1,0 +1,101 @@
+/* HEADER section */
+
+.header {
+	margin-bottom: 10px;
+	font-family: Century Gothic;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.button {
+	background: #2e323c;
+	color: white;
+	padding: 10px 25px;
+}
+
+.button:hover {
+	background: #4d4968;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* SHOWCASE section */
+
+.showcase {
+	margin-bottom: 20px;
+	padding: 250px;
+	background-image: url(../images/icelandic-sea.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #000;
+}
+
+/* MAIN ARTICLE section */
+
+.mainarticle {
+	margin-bottom: 10px;
+	font-family: Century Gothic;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}
+
+/* Main Article Left */
+
+.main-article-left {
+	background: #45415e;
+	padding: 40px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	color: white;
+}
+
+.main-article-left p {
+	margin: 30px 0px 50px 0px;
+}
+
+.main-article-left h3 {
+	margin-top: 5px;
+}
+
+/* Main Article Right */
+
+.main-article-right {
+	background: #254251;
+	padding: 20px;
+	text-align: center;
+	color: #959595;
+}
+
+.main-article-right h4 {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.main-article-right p {
+	text-align: justify;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+/* FOOTER section */
+
+.footer {
+	background: #2e323c;
+	padding: 20px;
+	color: #959595;
+	text-align: center;
+	font-family: Century Gothic;
+}
